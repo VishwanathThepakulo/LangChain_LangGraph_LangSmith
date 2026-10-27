@@ -1,0 +1,18 @@
+# requirements.txt
+
+# Raw LLM using Groq SDK
+groq
+
+# LangChain framework
+langchain
+langchain-groq
+
+# LangGraph workflow
+langgraph
+langgraph-checkpoint
+
+# Environment variables
+python-dotenv
+
+# Type definitions
+typing-extensions
