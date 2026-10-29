@@ -71,12 +71,12 @@ def run_code(script_path):
     )
 
 
+
 SYSTEM_PROMPT = """
 You are a self-editing Python coding agent.
 
 Project files:
 - lc_tools.py: Contains tools and model configuration.
-- lg_tools.py: Contains the LangGraph workflow.
 
 Rules:
 1. Always inspect the existing code before editing.
